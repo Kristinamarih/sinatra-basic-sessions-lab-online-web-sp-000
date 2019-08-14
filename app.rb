@@ -15,8 +15,5 @@ class App < Sinatra::Base
     @session = session
     item = params["item"]
     @session[:item] = item 
-    
   end
-  
-    
 end
